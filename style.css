@@ -1,0 +1,26 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    color: rgb(52, 165, 52);
+}
+
+.nome{
+    font-family:Arial;
+    font: size 4em;
+    text-shadow: 1px 0px 20px #c8ff00;
+    -webkit-transition: 1s linear 0s;
+    -moz-transition: 1s linear 0s;
+    -o-transition: 1s linear 0s;
+    transition: 1s linear 0s;
+    outline: 0 none;  
+}
+
+.descicao{
+    text-align: center;
+    font-family: Arial;
+}
